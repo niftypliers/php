@@ -8,29 +8,29 @@ $fruit2 = "Orange";
 
 // Indexed array
 $fruits = array(
-				0 => "Apple",
+                0 => "Apple",
                 1 => "Orange",
                 6 => "Cherry"
-          );
+            );
           
 // Associative
 $student = array(
-				"name" => "Raja",
+                "name" => "Raja",
                 "age" => 25,
                 "dept" => "CSE"
-                );
+            );
                 
 // Multi
 $student = array(
-				"name" => "Raja",
+                "name" => "Raja",
                 "age" => 25,
                 "dept" => "CSE",
                 "marks" => array(
-                			"eng" => 50,
+                            "eng" => 50,
                             "tam" => 45,
                             "mat" => 46,
-                			),
-                );
+                        ),
+            );
 
 
 // echo $student[dept];
